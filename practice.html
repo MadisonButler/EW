@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+            <h4 id="title">
+                Order Here
+            </h4>
+        <section id="contact" class="forms">
+                <h4> Enter Your Contact Information</h4>
+                <form action="" method="POST">
+                    <label for="first">Enter your first name</label>
+                    <input id="first" type="text" name="first-name" required/>
+                    <br>
+
+                    <label for="lastname">Enter your last name</label>
+                    <input id="lastname" type="text" name="last-name" required/>
+                    <br>
+
+                    <label for="email">Enter your email address</label>
+                    <input id="email" type="email" name="emailaddress" required/>
+                    <br>
+
+                    <label for="phone">Enter your phone number</label>
+                    <input id="phone" type="number" name="phone" maxlength="10" required/>
+                    <br>
+
+                    <label for="password">Enter your password</label>
+                    <input id="password" type="password" name="password" minlength="8" required/>
+                    <br>
+
+                    <input type="submit" value="Submit" />
+                    <br>
+                </form>
+        </section>
+        <br>
+        <section class="forms">
+            <div id="order">
+                <form action="" method="POST">
+                    <div id="breadtype" class="fooditem">
+                        <h4> Breadtype </h4>
+                        <label for="sourdough">sourdough</label>
+                        <input id="sourdough" type="radio" name="bread" value="sourdough" required/>
+                        <label for="wholewheat">whole wheat</label>
+                        <input id="wholewheat" type="radio" name="bread" value="wholewheat" required/>
+                        <label for="toasted">toasted</label>
+                        <input id="toasted" type="checkbox" name="toasted" />
+                    </div>
+                    <div id="condiments" class="fooditem">
+                        <h4> Condiments </h4> 
+                        <label for="ketchup">ketchup</label>
+                        <input id="ketchup" type="checkbox" name="ketchup" />
+                        <label for="mustard">mustard</label>
+                        <input id="mustard" type="checkbox" name="mustard" />
+                        <label for="mayonnaise">mayonnaise</label>
+                        <input id="mayonnaise" type="checkbox" name="mayonnaise" />
+                    </div>
+                    <div id="meats" class="fooditem"> 
+                        <h4> Meats </h4>
+                        <select id="meats" name="meats">
+                            <option disabled selected value></option>
+                            <option id="chicken" value="chicken" required>chicken patty</option>
+                            <option id="beef" value="beef" required>beef patty</option>
+                        </select>
+                    </div>
+                    <div id="other" class="fooditem"> 
+                        <h4> Other </h4>
+                        <label for="lettuce">lettuce</label>
+                        <input id="lettuce" type="checkbox" name="lettuce" />
+                        <label for="tomato">tomato</label>
+                        <input id="tomato" type="checkbox" name="tomato" />
+                        <label for="onions">onions</label>
+                        <input id="onions" type="checkbox" name="onions" />
+                    </div>
+                    <div id="quantity">
+                        <h4> Quantity </h4>
+                        <input id="number" type="number" name="quantity" max="10" min="1" value="1" /> 
+                    </div>
+                    <input type="submit" value="Place order" />
+                    <a href=""> About </a>
+                </form>
+            </div>
+        </section>
+
+
+
+
+
+
+    </body>
+</html>
