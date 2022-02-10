@@ -1,0 +1,79 @@
+/* Type selector - element tag name (<p>) */
+p {
+  color:blue;
+}
+
+/* Type selector - element tag name (<div>) */
+div {
+  color:red;  
+}
+
+/* Type selector - element tag name (<h4>) */
+h4 {
+  color:green;
+  border: 5px dotted yellow; 
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+/* Universal selector - * */
+* {
+  font-size:16px;
+  font-style:italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Id selector - # */
+#contact {
+  font-weight:normal;
+}
+
+/* Class selector - . */
+.fooditem {
+   color:purple; 
+   text-transform:uppercase;
+}
+
+.forms {
+  border:4px double black;
+  border-radius: 15px;
+}
+
+/* Attribute selector - [] */
+[href] {
+    font-size:18px;
+    color:blue;
+    
+}
+
+[href]:hover {
+  color:burlywood;
+  font-size: 35px;
+}
+
+[href]:visited {
+  display: hidden;
+}
+
+
+
+/* Id selector - # */
+body {
+    background-color: lightblue;
+    opacity:1;
+}
+
+#title {
+    background-color:black;
+    opacity: 0.2;
+}
+
+input {
+  border-radius: 8px;
+  margin: 20px;
+}
+
+input[type=checkbox] {
+  background-color: pink;
+}

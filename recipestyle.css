@@ -1,0 +1,65 @@
+* {
+    font-size: 16px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    letter-spacing: 0em;
+    font-style: normal;
+    padding: 0px;
+}
+div {
+    margin: 2vw;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 30%;
+    display: inline-block;
+}
+h3 {
+    font-weight: bold;
+    letter-spacing: 0.4px;
+}
+#header {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align:center; 
+    background:#DFD2BF;
+}
+h2 {
+    color: #6E44FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+#header h5 {
+    color: #588B8B;
+    font-size: 17;
+    font-style: italic;
+}
+h6 {
+    color: #588B8B;
+    font-size: 15;
+    text-transform: uppercase;
+}
+#Ingredients h5 {
+    font-weight: bold;
+    font-style:italic;
+}
+#Instructions h5 {
+    font-weight: bold;
+    font-style: italic;
+}
+#knife img {
+    width: 26em;
+    length: 26em;
+}
+#rack img {
+    width: 26em;
+    length: 26em;
+}
+#Instructions {
+    background: #CAB6CD;
+}
+#Ingredients {
+    background: #E1E289;
+}
